@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: pacman;
+    src: url(.../tipografia/pacman.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(../imagenes/pacmann.png);
+}
+
+.fondo{
+    background-image: url(../imagenes/tablero2.png);
+    background-size: 105%;
+    font-family: pacman;
+    background-position: center;
+    height: 100vh;
+    color: rgb(255, 68, 0);
+    background-repeat: no-repeat;
+}
+.aliniar{
+    color: aliceblue;
+    border: 8px solid rgb(115, 45, 20);
+    font-size: 25px;
+    font-family: pacman;
+    background: rgb(115, 45, 20);
+}
+.aliniar2{
+    color: aliceblue;
+    border: 8px solid rgb(115, 45, 20);
+    font-size: 25px;
+    font-family: pacman;
+    background: rgb(115, 45, 20);
+}
+
+
+@media (min-width: 1201px)  {
+    .paccman{
+    position: relative;
+    animation-duration: 5s;
+    animation-name: pacman;
+    animation-iteration-count: infinite;
+    animation-delay: 2ms;
+    top: 130px;
+    left: 30px;
+}
+
+@keyframes pacman {
+    0% {top: 130px; left: 30px;}
+    10% {top: 130px; left: 290px;}
+    20% {top: 210px; left: 290px;}
+    30% {top: 210px; left: 150px;}
+    35% {top: 640px; left: 150px;}
+    45% {top: 625px; left: 1060px;}
+    50% {top: 700px; left: 1060px;}
+    55% {top: 700px; left: 1135px;}
+    60% {top: 630px; left: 1135px;}
+    70% {top: 630px; left: 1170px;}
+    80% {top: 565px; left: 1170px;}
+    85% {top: 565px; left: 1060px;}
+    90% {top: 425px; left: 1060px;}
+    100% {top: 425px; left: 1250px;}
+}
+}
+
+audio{
+    width: 20px;
+    box-shadow: 5px 5px 20px rgb(100, 100, 231);
+    border-radius: 30px;
+    transform: scale(1.5);
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    body {
+        background-color: coral;
+        background-image: url(../imagenes/web.webp);
+    }
+    .paccman{
+        position: relative;
+        animation-duration: 5s;
+        animation-name: pacman;
+        animation-iteration-count: infinite;
+        animation-delay: 2ms;
+        top: 240px;
+        left: 30px;
+    }
+  
+    @keyframes pacman {
+        0% {top: 240px; left: 30px;}
+        10% {top: 240px; left: 150px;}
+        20% {top: 295px; left: 150px;}
+        30% {top: 295px; left: 70px;}
+        35% {top: 540px; left: 70px;}
+        45% {top: 540px; left: 600px;}
+        50% {top: 580px; left: 600px;}
+        55% {top: 580px; left: 640px;}
+        60% {top: 530px; left: 640px;}
+        70% {top: 530px; left: 670px;}
+        80% {top: 500px; left: 670px;}
+        85% {top: 500px; left: 600px;}
+        90% {top: 410px; left: 600px;}
+        100% {top: 410px; left: 700px;}
+    } 
+} 
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        background-color: rgb(165, 77, 45);
+        background-image: url(../imagenes/web.webp);
+    }
+    
+    .paccman{
+        position: relative;
+        animation-duration: 5s;
+        animation-name: pacman;
+        animation-iteration-count: infinite;
+        animation-delay: 2ms;
+        top: 270px;
+        left: 5px;
+    }
+  
+    @keyframes pacman {
+        0% {top: 270px; left: 5px;}
+        10% {top: 270px; left: 120px;}
+        20% {top: 315px; left: 120px;}
+        30% {top: 315px; left: 50px;}
+        35% {top: 525px; left: 50px;}
+        45% {top: 525px; left: 490px;}
+        50% {top: 550px; left: 490px;}
+        55% {top: 550px; left: 530px;}
+        60% {top: 515px; left: 530px;}
+        70% {top: 515px; left: 550px;}
+        80% {top: 490px; left: 550px;}
+        85% {top: 490px; left: 490px;}
+        90% {top: 410px; left: 490px;}
+        100% {top: 410px; left: 700px;}
+    } 
+}
+    
+    
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background-color: rgb(93, 18, 173);
+        background-image: url(../imagenes/web.webp);
+    }
+    
+    .paccman{
+        position: relative;
+        animation-duration: 5s;
+        animation-name: pacman;
+        animation-iteration-count: infinite;
+        animation-delay: 2ms;
+        top: 235px;
+        left: 5px;
+    }
+  
+    @keyframes pacman {
+        0% {top: 235px; left: 5px;}
+        10% {top: 235px; left: 160px;}
+        20% {top: 290px; left: 160px;}
+        30% {top: 290px; left: 80px;}
+        35% {top: 550px; left: 80px;}
+        45% {top: 550px; left: 630px;}
+        50% {top: 580px; left: 630px;}
+        55% {top: 580px; left: 675px;}
+        60% {top: 550px; left: 675px;}
+        70% {top: 550px; left: 700px;}
+        80% {top: 510px; left: 700px;}
+        85% {top: 510px; left: 630px;}
+        90% {top: 410px; left: 630px;}
+        100% {top: 410px; left: 780px;}
+    } 
+}
+
